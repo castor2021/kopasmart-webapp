@@ -50,7 +50,7 @@
               prepend-inner-icon="mdi-lock"
                 v-model="password"
                 :append-icon="show1 ? 'mdi-eye-off':'mdi-eye'"
-                :type="show1 ? 'text' : 'password'"
+                :type="show1 ?  'password':'text'"
                  @click:append="show1 = !show1"
                 :rules="[rules.password, rules.length(8)]"
                 color="deep-purple"
