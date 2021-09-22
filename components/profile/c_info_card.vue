@@ -1,18 +1,18 @@
 <template>
   <v-container fill-height fluid grid-list-xl>
     <v-layout justify-start wrap>
-      <v-flex xs12 md4 sm12 class="mt-0 ml-0">
+      <v-flex xs12 md2 sm10 class="mt-0 ml-0">
         <v-container py-0>
           <v-layout wrap>
-            <v-flex xs12 md12 class="pa-0 ma-0">
-              <v-card class="mx-auto" raised height="480">
+            <v-flex xs20 md20 class="pa-0 ma-0">
+              <v-card class="mx-auto" raised height="250">
                 <v-img
                   src="https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/2/adelie-penguin-on-ice-theo-allofs.jpg"
                   lazy-src="https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/2/adelie-penguin-on-ice-theo-allofs.jpg"
                   aspect-ratio="1"
                   class="grey lighten-2"
-                  height="400"
-                  max-height="400"
+                  height="220"
+                  max-height="350"
                 >
                   <template v-slot:placeholder>
                     <v-row class="fill-height ma-0" align="center" justify="center">
@@ -198,11 +198,7 @@
                     <v-list-item inactive class="ma-0 pa-0" :ripple="false">
                       <v-list-item-content class="ma-0 pa-0">
                         <v-tabs right grow center-active class="elevation-2">
-                          <v-tab class="font-weight-light">
-                            <span>
-                              <v-icon small left>mdi-eye</v-icon>{{ $t('label.vtab.Timeline') }}
-                            </span>
-                          </v-tab>
+                
                           <v-tab class="font-weight-light">
                             <span>
                               <v-icon small left>mdi-account</v-icon>{{ $t('label.vtab.About') }}
@@ -224,21 +220,7 @@
                           <v-tab-item>
                             <v-card flat>
                               <v-card-text>
-                                <p>
-                                  Sed aliquam ultrices mauris. Donec posuere vulputate arcu. Morbi ac felis. Etiam
-                                  feugiat lorem non metus. Sed a libero.
-                                </p>
-
-                                <p>
-                                  Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Aenean tellus
-                                  metus, bibendum sed, posuere ac, mattis non, nunc. Aliquam lobortis. Aliquam lobortis.
-                                  Suspendisse non nisl sit amet velit hendrerit rutrum.
-                                </p>
-
-                                <p class="mb-0">
-                                  Phasellus dolor. Fusce neque. Fusce fermentum odio nec arcu. Pellentesque libero
-                                  tortor, tincidunt et, tincidunt eget, semper nec, quam. Phasellus blandit leo ut odio.
-                                </p>
+                              
                               </v-card-text>
                             </v-card>
                           </v-tab-item>
