@@ -11,7 +11,7 @@
                   lazy-src="https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/2/adelie-penguin-on-ice-theo-allofs.jpg"
                   aspect-ratio="1"
                   class="grey lighten-2"
-                  height="220"
+                  height="230"
                   max-height="350"
                 >
                   <template v-slot:placeholder>
