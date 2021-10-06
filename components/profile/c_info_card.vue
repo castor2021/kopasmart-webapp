@@ -12,7 +12,7 @@
                   aspect-ratio="1"
                   class="grey lighten-2"
                   height="500"
-                  max-height="330"
+                  max-height="320"
                 >
                   <template v-slot:placeholder>
                     <v-row class="fill-height ma-0" align="center" justify="center">
