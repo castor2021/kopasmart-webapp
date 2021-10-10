@@ -50,10 +50,7 @@ export default {
         role:this.role
 
       };
-      console.log(data);
-      if (this.password === this.rePassword) {
-        this.$store.dispatch('register', data);
-      }
+      this.$store.dispatch('register', data);
     }
 
   }
